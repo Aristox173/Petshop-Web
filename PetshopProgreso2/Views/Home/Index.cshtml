@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "Página de Inicio";
+}
+
+<div class="wrapper">
+    <div class="section section-about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                    <h2 class="title">¿Quienes Somos?</h2>
+                    <h5 class="description">En PetPlanet, somos un grupo apasionado de amantes de los animales que se dedica a proporcionar productos y servicios de alta calidad para mascotas. Nos encanta trabajar con mascotas y sus dueños para asegurarnos de que todas las necesidades de las mascotas se cumplan y se superen.</h5>
+                </div>
+            </div>
+            <div class="separator separator-primary"></div>
+            <div class="section-story-overview">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="image-container image-left" style="background-image: url('/Images/Imagen 3.jpg')">
+                            <p class="blockquote blockquote-primary">
+                                "Estoy impresionado con el servicio y la calidad de los productos que he recibido de PetPlanet. Mi perro está disfrutando de sus nuevos juguetes y la comida que compré en PetPlanet. "
+                                <br>
+                                <br>
+                                <small>Miguel</small>
+                            </p>
+                        </div>
+                        <div class="image-container" style="background-image: url('/Images/Imagen 2.jpg')"></div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="image-container image-right" style="background-image: url('/Images/Imagen 1.jpg')"></div>
+                        <p>
+                            Fundada en el año 2020, nuestra empresa se ha convertido en una referencia en la industria de las mascotas gracias a nuestra amplia experiencia y nuestro compromiso con el bienestar animal. Nos aseguramos de que todos nuestros productos sean de la más alta calidad y seleccionamos cuidadosamente cada artículo que ofrecemos en nuestra tienda en línea.
+                        </p>
+                        <p>
+                            En PetPlanet, creemos que cada mascota merece una vida feliz y saludable, y nos esforzamos por ayudar a los dueños de mascotas a hacer que eso suceda. Además de nuestra tienda en línea, ofrecemos consejos y recursos para ayudar a los dueños de mascotas a tomar decisiones informadas sobre la alimentación, el cuidado y la salud de sus mascotas.
+                        </p>
+                        <p>
+                            Estamos comprometidos con la satisfacción del cliente y siempre estamos disponibles para responder cualquier pregunta o inquietud que puedas tener sobre nuestros productos o servicios. Nos enorgullece ser un recurso confiable para la comunidad de dueños de mascotas y esperamos seguir creciendo y ayudando a más personas a proporcionar un hogar seguro y feliz para sus mascotas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section text-center">
+        <div class="container">
+            <h2 class="title">Nuestros Productos</h2>
+        </div>
+    </div>
+
+    <div class="d-flex">
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="~/Images/Card 1.jpeg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Comida</h4>
+                <a class="btn btn-primary margenBoton" asp-area="" asp-controller="Producto" asp-action="Index">Ver Productos</a>
+            </div>
+        </div>
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="~/Images/Card 7.jpeg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Juguetes</h4>
+                <a class="btn btn-primary margenBoton" asp-area="" asp-controller="Producto" asp-action="Index">Ver Productos</a>
+            </div>
+        </div>
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="~/Images/Card 5.jpeg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Disfraces</h4>
+                <a class="btn btn-primary margenBoton" asp-area="" asp-controller="Producto" asp-action="Index">Ver Productos</a>
+            </div>
+        </div>
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="~/Images/Card 6.jpeg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Servicios</h4>
+                <a class="btn btn-primary margenBoton" asp-area="" asp-controller="Producto" asp-action="Index">Ver Productos</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section section-contact-us text-center">
+        <div class="container">
+            <h2 class="title">¿Quieres Trabajar con Nosotros?</h2>
+            <p class="description">Contactanos!</p>
+            <div class="row">
+                <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
+                    <div class="input-group input-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="now-ui-icons users_circle-08"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Nombre...">
+                    </div>
+                    <div class="input-group input-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="now-ui-icons ui-1_email-85"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Correo...">
+                    </div>
+                    <div class="textarea-container">
+                        <textarea class="form-control" name="name" rows="4" cols="80" placeholder="Escribir Mensaje..."></textarea>
+                    </div>
+                    <div class="send-button paddingSend">
+                        <a href="#" class="btn btn-primary btn-round btn-block btn-lg">ENVIAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
